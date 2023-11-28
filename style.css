@@ -1,0 +1,311 @@
+        p{
+            margin-top: 0;
+            padding-top: 0;
+        }
+        h2{
+            margin-bottom: 0;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        nav {
+            
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+                
+                left: 0;
+                width: 100%;
+
+               
+            background-color: #0E182F;
+            padding: 15px 0;
+            display: flex;
+            align-items: center;
+            box-shadow: 0px 10px 31px rgba(255, 255, 255, 0.4);
+            border-bottom: 3px solid #F2C4BA;
+            z-index: 9999;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        li {
+            margin: 0;
+            position: relative;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            padding: 15px 20px;
+            display: block;
+            transition: background-color 0.3s;
+        }
+
+        
+        .dropdown {
+            position: relative;
+        }
+
+        .dropdown-content {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #444;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(0);
+            transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+            box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            white-space: nowrap;
+        }
+
+        .dropdown:hover .dropdown-content {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .dropdown-content li {
+            margin: 0;
+            padding: 0;
+        }
+
+        .dropdown-content a {
+            padding: 8px 15px;
+            font-size: 16px;
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+     
+        li:hover a {
+            background-color: #49919d;
+        }
+
+    
+        .dropdown-content li:hover a {
+            background-color: #bed3c4;
+        }
+
+  
+        .logo {
+            padding-left: 20px;
+            width: 20%;
+            margin-right: 20px;
+        }
+          
+            .content {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1{
+            font-size: 50px;
+        }
+        h2 {
+            font-size: 40px; 
+        }
+
+        .content p {
+            font-size: 30px;
+        }
+        * {
+            box-sizing: border-box;
+            }
+            body {
+            margin: 0;
+            }
+            /* Style untuk header */
+            .header {
+            color: white;
+            
+            background-color: black;
+            padding: 15px;
+            text-align: center;
+            height: 200px;
+            }
+          
+            /* Membuat tiga kolom yang tidak sama di mana masing-masing kolom bersifat “float” terhadap yang
+            lainnya */
+            .column {
+            float: left;
+            padding: 10px;
+            }
+            /* Left and right column */
+            .column.side {
+            width: 30%;
+            background-color : #E8EDDF;
+            }
+            .column.side.kebebasan {
+                height: 580px;
+                width: 25%;
+                background-color : #E8EDDF;
+            }
+            .column.side.inflasi {
+                height: 1500px;
+                width: 25%;
+                background-color : #E8EDDF;
+            }
+            .column.side.home.index {
+                height: 420px;
+                width: 25%;
+                background-color : #E8EDDF;
+            }
+            .column.side.bio {
+                    height: 600px;
+                    width: 25%;
+                background-color : #E8EDDF;
+                    }
+            .column.side.deretan {
+                height: 3300px;
+                    width: 25%;
+                background-color : #E8EDDF;
+                    }
+            .column.side.statistika {
+                height: 2350px;
+                    width: 25%;
+                background-color : #E8EDDF;
+                    }
+            .column.side.htm {
+                height: 760px;
+                width: 25%;
+                background-color : #E8EDDF;
+            }
+            .column.side.css {
+                height: 1800px;
+                width: 25%;
+                background-color : #E8EDDF;
+            }
+            .column.side.kerajaan {
+                height: 700px;
+                width: 25%;
+                background-color : #E8EDDF;
+            }
+            .column.side.pembangunan {
+                height: 1100px;
+                width: 25%;
+                background-color : #E8EDDF;
+            }
+            .column.side.lingkaran {
+                height: 1200px;
+                width: 25%;
+                background-color : #E8EDDF;
+            }
+
+
+
+
+
+            /* Middle column */
+            .column.main.lingkaran {
+                text-align: left;
+                padding: 20px;
+            width: 75%;
+            height: 1200px;
+            background-color : #E2EAF3;
+            }
+            .column.main.kebebasan {
+                text-align: left;
+                padding: 20px;
+            width: 75%;
+            height: 580px;
+            background-color : #E2EAF3;
+            }
+            .column.main.inflasi {
+                text-align: left;
+                padding: 20px;
+            width: 75%;
+            height: 1500px;
+            }
+            .column.main.pembangunan {
+                text-align: left;
+                padding: 20px;
+            width: 75%;
+            height: 1100px;
+            }
+            .column.main.kerajaan {
+                text-align: left;
+                padding: 20px;
+            width: 75%;
+            height: 700px;
+            background-color : #E2EAF3;
+            }
+            .column.main {
+                text-align: left;
+                padding: 20px;
+            width: 70%;
+            background-color : #E2EAF3;
+            }
+            .column.main.htm {
+                text-align: left;
+                padding: 20px;
+            width: 75%;
+            height: 760px;
+            background-color : #E2EAF3;
+            }
+            .column.main.css {
+                text-align: left;
+                padding: 20px;
+            width: 75%;
+            height: 1800px;
+            background-color : #E2EAF3;
+            }
+            .column.main.home {
+                text-align: left;
+                padding: 20px;
+            width: 75%;
+            height: 420px;
+            background-color : #E2EAF3;
+            }
+            .column.main.bio {
+                text-align: left;
+                padding: 20px;
+            width: 75%;
+            height: 600px;
+            background-color : #E2EAF3;
+            }
+            .column.main.deretan {
+                text-align: left;
+                padding: 20px;
+                height: 3300px;
+            width: 75%;
+            background-color : #E2EAF3;
+            }
+            .column.main.statistika {
+                text-align: left;
+                padding: 20px;
+                height: 2350px;
+            width: 75%;
+            background-color : #E2EAF3;
+            }
+            /* Clear floats after the columns */
+            .row:after {
+            content: "";
+            display: table;
+            clear: both;
+            }
+            .footer {
+            background-color: #DE6D54;
+            color: #FAFAFA;
+            padding: 10px;
+            text-align: center;
+            }
+            .center{
+                display: flex;
+                justify-content: center;
+                
+            }
